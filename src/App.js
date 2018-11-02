@@ -1,12 +1,10 @@
 import React, { Component } from 'react';
-import Clock from "./components/clock";
+import HexClock from "./components/HexClock";
 
-class App extends Component {
+export default class App extends Component {
   render() {
     return (
-      <Clock />
+      <HexClock />
     );
   }
 }
-
-export default App;
