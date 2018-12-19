@@ -1,1 +1,1 @@
-Hexanumeric numbers depicts the current time.
+Hex code numbers depicts the current time
