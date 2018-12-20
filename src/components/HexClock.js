@@ -16,14 +16,16 @@ export default class HexClock extends Component {
     currentTime() {
         // Set state to current hours, minutes, seconds
         this.setState({
-            hours: new Date().getHours().toString(),
-            minutes: new Date().getMinutes().toString(),
             seconds: new Date().getSeconds().toString(),
+            minutes: new Date().getMinutes().toString(),
+            hours: new Date().getHours().toString(),
         });
+
         // Set state to concatenated string for color hex code
         this.setState({
             hex: `#${this.state.hours}${this.state.minutes}${this.state.seconds}`
         });
+
     };
 
     // Updates every 1 second
@@ -40,7 +42,13 @@ export default class HexClock extends Component {
                 minWidth: "100vw",
             }}>
                 {/* Display hex code to user */}
-                {this.state.hex}
+                <span style={{
+                    color: 'white',
+                    fontSize: '3em',
+                    webkitTextStroke: '1px black',
+                }}>
+                    {this.state.hex}
+                </span>
             </div>
         );
     };
