@@ -40,12 +40,16 @@ export default class HexClock extends Component {
                 backgroundColor: this.state.hex,
                 minHeight: "100vh",
                 minWidth: "100vw",
+                textAlign: 'center',
             }}>
                 {/* Display hex code to user */}
                 <span style={{
                     color: 'white',
                     fontSize: '3em',
-                    webkitTextStroke: '1px black',
+                    fontWeight: 'bold',
+                    webkitTextStroke: '3px black',
+                    display: 'inline-block',
+                    marginTop: '40vh'
                 }}>
                     {this.state.hex}
                 </span>
