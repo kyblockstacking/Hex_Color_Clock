@@ -37,7 +37,7 @@ export default class HexClock extends Component {
             <div style={{
                 backgroundColor: this.state.hex,
                 minHeight: "100vh",
-                width: "100vw",
+                minWidth: "100vw",
             }}>
                 {/* Display hex code to user */}
                 {this.state.hex}
