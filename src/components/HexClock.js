@@ -19,7 +19,7 @@ export default class HexClock extends Component {
             hours: new Date().getHours().toString(),
             minutes: new Date().getMinutes().toString(),
             seconds: new Date().getSeconds().toString(),
-        })
+        });
         // Set state to concatenated string for color hex code
         this.setState({
             hex: `#${this.state.hours}${this.state.minutes}${this.state.seconds}`
@@ -36,13 +36,11 @@ export default class HexClock extends Component {
             // In-line style set background to hex color code
             <div style={{
                 backgroundColor: this.state.hex,
-                margin: "0 auto",
                 minHeight: "100vh",
-                height: "100%",
-                width: "100%",
+                width: "100vw",
             }}>
                 {/* Display hex code to user */}
-                #{this.state.hours}{this.state.minutes}{this.state.seconds}
+                {this.state.hex}
             </div>
         );
     };
