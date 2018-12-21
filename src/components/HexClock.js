@@ -49,10 +49,19 @@ export default class HexClock extends Component {
                     fontWeight: 'bold',
                     webkitTextStroke: '3px black',
                     display: 'inline-block',
-                    marginTop: '40vh'
+                    marginTop: '40vh',
+                    cursor: 'default',
                 }}>
                     {this.state.hex}
                 </span>
+                <div
+                    className='heartbeat'
+                    style={{
+                        fontSize: '1em',
+                    }}>
+                    by Kevin Yang
+                    </div>
+
             </div>
         );
     };
