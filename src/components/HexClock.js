@@ -58,13 +58,14 @@ export default class HexClock extends Component {
                 }}>
                     {this.state.hex}
                 </span>
+
                 <div
                     className='heartbeat'
                     style={{
                         fontSize: '1em',
                     }}>
                     by Kevin Yang
-                    </div>
+                </div>
 
             </div>
         );
