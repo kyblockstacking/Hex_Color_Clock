@@ -2,16 +2,15 @@ import React, { Component } from 'react';
 
 export default class HexClock extends Component {
 
-    constructor() {
-        super();
-        this.state = {
-            // Set state to show initial time
-            hours: new Date().getHours(),
-            minutes: new Date().getMinutes(),
-            seconds: new Date().getSeconds(),
-            hex: "",
-        };
+    state = {
+        // Set state to show initial time
+        hours: new Date().getHours(),
+        minutes: new Date().getMinutes(),
+        seconds: new Date().getSeconds(),
+        newSeconds: "",
+        hex: "",
     };
+
 
     currentTime() {
         // Set state to current hours, minutes, seconds
@@ -25,7 +24,6 @@ export default class HexClock extends Component {
         this.setState({
             hex: `#${this.state.hours}${this.state.minutes}${this.state.seconds}`
         });
-
     };
 
     // Updates every 1 second
@@ -42,7 +40,13 @@ export default class HexClock extends Component {
                 minWidth: "100vw",
                 textAlign: 'center',
             }}>
-                {/* Display hex code to user */}
+
+                {/* Display current time */}
+                <div>
+                    current time: {this.state.hours}:{this.state.minutes}:{this.state.seconds}
+                </div>
+
+                {/* Display hex code */}
                 <span style={{
                     color: 'white',
                     fontSize: '3em',
