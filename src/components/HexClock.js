@@ -42,7 +42,7 @@ export default class HexClock extends Component {
             }}>
 
                 {/* Display current time */}
-                <div>
+                <div className='currentTime'>
                     current time: {this.state.hours}:{this.state.minutes}:{this.state.seconds}
                 </div>
 
