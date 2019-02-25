@@ -1,13 +1,13 @@
 {
-  "main.css": "/kyblockstacking/Hex_Color_Clock/static/css/main.3e9d31b0.chunk.css",
-  "main.js": "/kyblockstacking/Hex_Color_Clock/static/js/main.0ef8abe7.chunk.js",
-  "main.js.map": "/kyblockstacking/Hex_Color_Clock/static/js/main.0ef8abe7.chunk.js.map",
-  "static/js/1.b56dc4b2.chunk.js": "/kyblockstacking/Hex_Color_Clock/static/js/1.b56dc4b2.chunk.js",
-  "static/js/1.b56dc4b2.chunk.js.map": "/kyblockstacking/Hex_Color_Clock/static/js/1.b56dc4b2.chunk.js.map",
-  "runtime~main.js": "/kyblockstacking/Hex_Color_Clock/static/js/runtime~main.c0e50ba8.js",
-  "runtime~main.js.map": "/kyblockstacking/Hex_Color_Clock/static/js/runtime~main.c0e50ba8.js.map",
-  "static/css/main.3e9d31b0.chunk.css.map": "/kyblockstacking/Hex_Color_Clock/static/css/main.3e9d31b0.chunk.css.map",
-  "index.html": "/kyblockstacking/Hex_Color_Clock/index.html",
-  "precache-manifest.a4a29bf3ae9c8dda47634297ba968a73.js": "/kyblockstacking/Hex_Color_Clock/precache-manifest.a4a29bf3ae9c8dda47634297ba968a73.js",
-  "service-worker.js": "/kyblockstacking/Hex_Color_Clock/service-worker.js"
+  "main.css": "/hex_clock/static/css/main.3e9d31b0.chunk.css",
+  "main.js": "/hex_clock/static/js/main.204941f2.chunk.js",
+  "main.js.map": "/hex_clock/static/js/main.204941f2.chunk.js.map",
+  "static/js/1.b56dc4b2.chunk.js": "/hex_clock/static/js/1.b56dc4b2.chunk.js",
+  "static/js/1.b56dc4b2.chunk.js.map": "/hex_clock/static/js/1.b56dc4b2.chunk.js.map",
+  "runtime~main.js": "/hex_clock/static/js/runtime~main.f97eb56b.js",
+  "runtime~main.js.map": "/hex_clock/static/js/runtime~main.f97eb56b.js.map",
+  "static/css/main.3e9d31b0.chunk.css.map": "/hex_clock/static/css/main.3e9d31b0.chunk.css.map",
+  "index.html": "/hex_clock/index.html",
+  "precache-manifest.96f054a2e2ee708678759c0688d4fccb.js": "/hex_clock/precache-manifest.96f054a2e2ee708678759c0688d4fccb.js",
+  "service-worker.js": "/hex_clock/service-worker.js"
 }

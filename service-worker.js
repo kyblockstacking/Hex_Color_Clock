@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.2/workbox-sw.js");
 
 importScripts(
-  "/kyblockstacking/Hex_Color_Clock/precache-manifest.a4a29bf3ae9c8dda47634297ba968a73.js"
+  "/hex_clock/precache-manifest.96f054a2e2ee708678759c0688d4fccb.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/kyblockstacking/Hex_Color_Clock/index.html", {
+workbox.routing.registerNavigationRoute("/hex_clock/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
